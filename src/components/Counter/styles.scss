@@ -1,0 +1,23 @@
+.counter {
+  border: 2px solid #ddd;
+  position: relative;
+  margin: 15px;
+  padding: 10px;
+
+  &-close {
+    top: 5px;
+    right: 10px;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  &-count {
+    font-size: 25px;
+    margin: 5px;
+  }
+
+  &-btns {
+    display: flex;
+    gap: 10px;
+  }
+}
